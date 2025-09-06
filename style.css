@@ -1,0 +1,30 @@
+img{
+  background: #AEAEAE;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+main,
+section{
+  display: flex;
+}
+.component{
+  margin: auto;
+}
+.img{
+  width: 50%;
+  max-width: 720px;
+}
+.txt{
+  /* padding: 120px; */
+  padding: 7.5rem clamp(2rem,7vw,7.5rem);
+  background: black;
+  color: white;
+}
+.txt p{
+  font-family:sans-serif;
+  font-weight: bold;
+  /* font-size: 56px; */
+  font-size: clamp(1.5rem, 3vw, 3.5rem);
+}
